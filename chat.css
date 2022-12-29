@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(233, 241, 241);
+    font-family: 'Courier New', Courier, monospace;
+}
+section.chat__section{
+    width: 800px;
+    max-width: 90%;
+    background: rgb(216, 238, 238);
+    box-shadow: 0 10px 15px -3px rgba(0, o, 0, 0.1),0 4px 6px --2px rgba(0, o, 0, 0.5);
+}
+.brand{
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea{
+    width: 80%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #f5f4f4;
+    
+}
+.send{
+    width:20%;
+    padding:20px;
+    background-color:#4a8780;
+    
+}
+button{
+        border: none;
+        color:  #83e5da;
+        padding:20px;
+
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /* margin: 4px 2px; */
+        cursor: pointer;
+}
+.message{
+    padding:10px;
+    width: 50%;
+    margin-bottom:20px
+
+}
+.message p{
+    margin-bottom: 0px;
+}
+.incoming{
+    background-color: #4a8780;
+    color:white;
+    
+}
+.outgoing{
+    background-color: white;
+    margin-left:auto;
+    color:#4a8780;
+    text-align:right;
+
+}
